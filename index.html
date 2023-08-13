@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome Cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <title>Animenia</title>
+    <!-- Stylesheet Link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--! Navigation Section started -->
+    <nav>
+        <div class="container">
+            <h2 class="logo">aniMenia</h2>
+            <div class="search-bar">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="search" placeholder="Search for otaku,weebs,anime stuff and hentai">
+            </div>
+            <div class="create">
+                <label class="btn btn-primary" for="create-post">Create</label>
+                <div class="profile-photo">
+                    <img src="images/profile-1.jfif" alt="">
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- ! Navigation Section ends -->
+
+    <!-- ? Main Section starts -->
+    <main>
+        <div class="container">
+            <!--! Left sub section -->
+            <div class="left">
+                <a class="profile">
+                    <div class="profile-photo">
+                        <img src="images/profile-1.jfif" alt="">
+                    </div>
+                    <div class="handle">
+                        <h4>Lorest Ayi</h4>
+                        <p class="text-muted">
+                            @loayi
+                        </p>
+                    </div>
+                </a>
+
+                <!-- ! Sidebar starts-->
+                <div class="sidebar">
+                    <a class="menu-item active">
+                        <span><i class="fas fa-house"></i></span><h3>Home</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="fas fa-compass"></i></span><h3>Explore</h3>
+                    </a>
+                    <a class="menu-item" id="notifications">
+                        <span><i class="fas fa-bell"><small class="notification-count">9+</small></i></span><h3>Notification</h3>
+                        <!-- ! Notification popup -->
+                        <div class="notifications-popup">
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="images/profile-2.jfif" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Keke Benjamin</b> accepted your friend request
+                                    <small class="text-muted">2 DAYS AGO</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="notifications-popup">
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="images/profile-3.jfif" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Jane Doe</b> commented on your post
+                                    <small class="text-muted">1 HOUR AGO</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="notifications-popup">
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="images/profile-4.jfif" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Mary Oppong </b> and <b>283 others</b> liked your post
+                                    <small class="text-muted">4 MINUTES AGO</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="notifications-popup">
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="images/profile-5.png" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Doris Y. Lortey</b> commented on a post you are tagged in
+                                    <small class="text-muted">2 HOURS AGO</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="notifications-popup">
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="images/profile-6.jfif" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Kunato Hyouma</b> commented on a post you are tagged in
+                                    <small class="text-muted">1 HOUR AGO</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="notifications-popup">
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="images/profile-7.jfif" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>John Doe</b> commented on your post
+                                    <small class="text-muted">1 HOURS AGO</small>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="menu-item" id="messages-notifications">
+                        <span><i class="fas fa-envelope"><small class="notification-count">6</small></i></span><h3>Messages</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="fas fa-bookmark"></i></span><h3>Bookmarks</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="fas fa-chart-line"></i></span><h3>Analytics</h3>
+                    </a>
+                    <a class="menu-item" id="theme">
+                        <span><i class="fas fa-palette"></i></span><h3>Theme</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="fa-solid fa-gears"></i></span><h3>Settings</h3>
+                    </a>
+                </div>
+                <!-- ! Sidebar Ends -->
+                <label class="btn btn-primary" for="create-post">Create Post</label>
+            </div>
+            <!--! Middle sub section -->
+            <div class="middle">
+                <!-- ? Stories -->
+                <div class="stories">
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="images/profile-1.jfif" alt="">
+                        </div>
+                        <p class="name">Your Story</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="images/profile-9.jfif" alt="">
+                        </div>
+                        <p class="name">Lilla James</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="images/profile-10.jfif" alt="">
+                        </div>
+                        <p class="name">Winnie Male</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="images/profile-11.jfif" alt="">
+                        </div>
+                        <p class="name">Daniel Bale</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="images/profile-12.jfif" alt="">
+                        </div>
+                        <p class="name">Jane Doe</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="images/profile-13.jfif" alt="">
+                        </div>
+                        <p class="name">Tina White</p>
+                    </div>
+                </div>
+                <!-- ? Create Post -->
+                <form class="create-post">
+                    <div class="profile-photo">
+                        <img src="images/profile-1.jfif" alt="">
+                    </div>
+                    <input type="text" placeholder="what's on your mind, Lorest?" id="create-post">
+                    <input type="submit" value="post" class="btn btn-primary">
+                </form>
+                <!-- ? Feeds -->
+                <div class="feeds">
+                    <!-- ! Feed 1 -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="images/profile-14.jfif" alt="">
+                                </div>
+                                <div class="info">
+                                    <h3>Real Luffy</h3>
+                                    <small>Tokyo, 15 MINUTES AGO</small>
+                                </div>
+                            </div>
+                            <span class="edit"><i class="fas fa-ellipsis"></i></span>
+                        </div>
+
+                        <div class="photo">
+                          <video controls width="750">
+                            <source src="images/feed-1.mp4" srcset="video/mp4">
+                          </video>
+                        </div>
+
+                        <div class="action-button">
+                            <div class="interaction-buttons">
+                                <span><i class="fa-regular fa-heart"></i></span>
+                                <span><i class="fa-regular fa-comment-dots"></i></span>
+                                <span><i class="fa-solid fa-square-share-nodes"></i></span>
+                            </div>
+
+                            <div class="bookmark">
+                                <span><i class="fa-regular fa-bookmark"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="images/profile-10.jfif" alt=""></span>
+                            <span><img src="images/profile-4.jfif" alt=""></span>
+                            <span><img src="images/profile-5.png" alt=""></span>
+                            <p>Liked by <b>Earnest Achiever</b> and <b>2,323 others</b></p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>Real Luffy</b> A nice live wallpaper | Eren Yaeger <span class="harsh-tag">#attack on titan</span></p>
+                            <div class="comments text-muted">View all 277 comments</div>
+                        </div>
+                    </div>
+                    <!-- ? Feed 2 -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="images/profile-15.jfif" alt="">
+                                </div>
+                                <div class="info">
+                                    <h3>Benjamin Dwayne</h3>
+                                    <small>Miami, 3 HOURS AGO</small>
+                                </div>
+                            </div>
+                            <span class="edit"><i class="fas fa-ellipsis"></i></span>
+                        </div>
+
+                        <div class="photo">
+                          <img src="images/feed-2.jfif" alt="">  
+                        </div>
+
+                        <div class="action-button">
+                            <div class="interaction-buttons">
+                                <span><i class="fa-regular fa-heart"></i></span>
+                                <span><i class="fa-regular fa-comment-dots"></i></span>
+                                <span><i class="fa-solid fa-square-share-nodes"></i></span>
+                            </div>
+
+                            <div class="bookmark">
+                                <span><i class="fa-regular fa-bookmark"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="images/profile-3.jfif" alt=""></span>
+                            <span><img src="images/profile-6.jfif" alt=""></span>
+                            <span><img src="images/profile-10.jfif" alt=""></span>
+                            <p>Liked by <b>Earnest Achiever</b> and <b>2,323 others</b></p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>Benjamin Dwayne</b>Lorem ipsum dolor sit. <span class="harsh-tag">#lifestyle</span></p>
+                            <div class="comments text-muted">View all 3,473 comments</div>
+                        </div>
+                    </div>
+                    <!-- ! Feed 3 -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="images/profile-16.jfif" alt="">
+                                </div>
+                                <div class="info">
+                                    <h3>Gabimaru</h3>
+                                    <small>Ghana, 1 MINUTE AGO</small>
+                                </div>
+                            </div>
+                            <span class="edit"><i class="fas fa-ellipsis"></i></span>
+                        </div>
+
+                        <div class="photo">
+                          <img src="images/feed-3.jpg" alt="">  
+                        </div>
+
+                        <div class="action-button">
+                            <div class="interaction-buttons">
+                                <span><i class="fa-regular fa-heart"></i></span>
+                                <span><i class="fa-regular fa-comment-dots"></i></span>
+                                <span><i class="fa-solid fa-square-share-nodes"></i></span>
+                            </div>
+
+                            <div class="bookmark">
+                                <span><i class="fa-regular fa-bookmark"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="images/profile-3.jfif" alt=""></span>
+                            <span><img src="images/profile-5.png" alt=""></span>
+                            <span><img src="images/profile-10.jfif" alt=""></span>
+                            <p>Liked by <b>Earnest Achiever</b> and <b>2,323 others</b></p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>Gabimaru</b> Akatsuki wallpaper | Tobi. <span class="harsh-tag">#Akatsuki</span></p>
+                            <div class="comments text-muted">View all 277 comments</div>
+                        </div>
+                    </div>
+                    <!-- ? Feed 4 -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="images/profile-17.jfif" alt="">
+                                </div>
+                                <div class="info">
+                                    <h3>User Shoto</h3>
+                                    <small>Dubai, 15 MINUTES AGO</small>
+                                </div>
+                            </div>
+                            <span class="edit"><i class="fas fa-ellipsis"></i></span>
+                        </div>
+
+                        <div class="photo">
+                          <img src="images/feed-4.jpg" alt="">  
+                        </div>
+
+                        <div class="action-button">
+                            <div class="interaction-buttons">
+                                <span><i class="fa-regular fa-heart"></i></span>
+                                <span><i class="fa-regular fa-comment-dots"></i></span>
+                                <span><i class="fa-solid fa-square-share-nodes"></i></span>
+                            </div>
+
+                            <div class="bookmark">
+                                <span><i class="fa-regular fa-bookmark"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="images/profile-11.jfif" alt=""></span>
+                            <span><img src="images/profile-3.jfif" alt=""></span>
+                            <span><img src="images/profile-5.png" alt=""></span>
+                            <p>Liked by <b>Earnest Achiever</b> and <b>2,323 others</b></p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>Lana Rose</b> Maleyan Army. <span class="harsh-tag"># Attack on titan</span></p>
+                            <div class="comments text-muted">View all 277 comments</div>
+                        </div>
+                    </div>
+                    <!-- ! Feed 5 -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="images/profile-18.jfif" alt="">
+                                </div>
+                                <div class="info">
+                                    <h3>Heabom 💫</h3>
+                                    <small>Dubai, 15 MINUTES AGO</small>
+                                </div>
+                            </div>
+                            <span class="edit"><i class="fas fa-ellipsis"></i></span>
+                        </div>
+
+                        <div class="photo">
+                          <img src="images/feed-5.jfif" alt="">  
+                        </div>
+
+                        <div class="action-button">
+                            <div class="interaction-buttons">
+                                <span><i class="fa-regular fa-heart"></i></span>
+                                <span><i class="fa-regular fa-comment-dots"></i></span>
+                                <span><i class="fa-solid fa-square-share-nodes"></i></span>
+                            </div>
+
+                            <div class="bookmark">
+                                <span><i class="fa-regular fa-bookmark"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="images/profile-10.jfif" alt=""></span>
+                            <span><img src="images/profile-4.jfif" alt=""></span>
+                            <span><img src="images/profile-5.png" alt=""></span>
+                            <p>Liked by <b>Earnest Achiever</b> and <b>2,323 others</b></p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>Heabom 💫</b> Rengoku VS Akaza. <span class="harsh-tag">#kimetsu no yaiba</span></p>
+                            <div class="comments text-muted">View all 277 comments</div>
+                        </div>
+                    </div>
+                    <!--  ? Feed 6 -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="images/profile-19.jfif" alt="">
+                                </div>
+                                <div class="info">
+                                    <h3>Gambar Keren</h3>
+                                    <small>Tokyo, 10 MINUTES AGO</small>
+                                </div>
+                            </div>
+                            <span class="edit"><i class="fas fa-ellipsis"></i></span>
+                        </div>
+
+                        <div class="photo">
+                          <img src="images/feed-6.jfif" alt="">  
+                        </div>
+
+                        <div class="action-button">
+                            <div class="interaction-buttons">
+                                <span><i class="fa-regular fa-heart"></i></span>
+                                <span><i class="fa-regular fa-comment-dots"></i></span>
+                                <span><i class="fa-solid fa-square-share-nodes"></i></span>
+                            </div>
+
+                            <div class="bookmark">
+                                <span><i class="fa-regular fa-bookmark"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="images/profile-1.jfif" alt=""></span>
+                            <span><img src="images/profile-7.jfif" alt=""></span>
+                            <span><img src="images/profile-4.jfif" alt=""></span>
+                            <p>Liked by <b>Earnest Achiever</b> and <b>2,323 others</b></p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>Gambar Keren</b> Monkey.D Luffy | Zoro. <span class="harsh-tag">#onepiece</span></p>
+                            <div class="comments text-muted">View all 277 comments</div>
+                        </div>
+                    </div>
+                    <!-- ! Feed 7 -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="images/profile-20.jfif" alt="">
+                                </div>
+                                <div class="info">
+                                    <h3>Sunset Boy</h3>
+                                    <small>Kyoto, 5 HOURS AGO</small>
+                                </div>
+                            </div>
+                            <span class="edit"><i class="fas fa-ellipsis"></i></span>
+                        </div>
+
+                        <div class="photo">
+                          <img src="images/feed-7.jfif" alt="">  
+                        </div>
+
+                        <div class="action-button">
+                            <div class="interaction-buttons">
+                                <span><i class="fa-regular fa-heart"></i></span>
+                                <span><i class="fa-regular fa-comment-dots"></i></span>
+                                <span><i class="fa-solid fa-square-share-nodes"></i></span>
+                            </div>
+
+                            <div class="bookmark">
+                                <span><i class="fa-regular fa-bookmark"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="images/profile-17.jfif" alt=""></span>
+                            <span><img src="images/profile-19.jfif" alt=""></span>
+                            <span><img src="images/profile-9.jfif" alt=""></span>
+                            <p>Liked by <b>Earnest Achiever</b> and <b>2,323 others</b></p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>Sunset Boy</b> Tanjiro | Upper Moon. <span class="harsh-tag">#kimetsu no yaiba</span></p>
+                            <div class="comments text-muted">View all 277 comments</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ! Right sub section -->
+            <div class="right">
+                <!-- ! Message Section starts -->
+                <div class="messages">
+                    <div class="heading">
+                        <h4>Messages</h4><i class="fa-regular fa-pen-to-square"></i>
+                    </div>
+                    <!-- ? Search Bar -->
+                    <div class="search-bar">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="search" placeholder="Search messages" id="message-search">
+                    </div>
+                    <!-- ? Messages Category -->
+                    <div class="category">
+                        <h6 class="active">Primary</h6>
+                        <h6>General</h6>
+                        <h6 class="message-requests">Request(7)</h6>
+                    </div>
+                     <!-- ? Message -->
+                     <div class="message">
+                        <div class="profile-photo">
+                            <img src="images/profile-3.jfif" alt="">
+                            <div class="active"></div>
+                        </div>
+                        <div class="message-body">
+                            <h5>Aizen Sama</h5>
+                            <p class="text-bold">2 new messages</p>
+                        </div>
+                    </div>
+                     <!-- ? Message -->
+                     <div class="message">
+                        <div class="profile-photo">
+                            <img src="images/profile-4.jfif" alt="">
+                            <div class="active"></div>
+                        </div>
+                        <div class="message-body">
+                            <h5>Shy baby</h5>
+                            <p class="text-bold">How was Luffy gear 5</p>
+                        </div>
+                    </div>
+                    <!-- ? Message -->
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="images/profile-17.jfif" alt="">
+                        </div>
+                        <div class="message-body">
+                            <h5>User Shoto</h5>
+                            <p class="text-muted">Listen to blue bird... for me its the best opening</p>
+                        </div>
+                    </div>
+                    <!-- ? Message -->
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="images/profile-10.jfif" alt="">
+                            <div class="active"></div>
+                        </div>
+                        <div class="message-body">
+                            <h5>Winnie Male</h5>
+                            <p class="text-muted">lol u right</p>
+                        </div>
+                    </div>
+                        <!-- ? Message -->
+                        <div class="message">
+                            <div class="profile-photo">
+                                <img src="images/profile-2.jfif" alt="">
+                            </div>
+                            <div class="message-body">
+                                <h5>Kotomine Kirei</h5>
+                                <p class="text-muted">So we're getting a sequel to the Eminence in Shadow</p>
+                            </div>
+                        </div>
+                          <!-- ? Message -->
+                     <div class="message">
+                        <div class="profile-photo">
+                            <img src="images/profile-6.jfif" alt="">
+                            <div class="active"></div>
+                        </div>
+                        <div class="message-body">
+                            <h5>Kawaii Girl</h5>
+                            <p class="text-bold">Saitama is the strongest anime character</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- ! Message Section ends -->
+
+                <!-- ! Friend Requests section starts -->
+                <div class="friend-requests">
+                    <h4>Requests</h4>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-photo">
+                                <img src="images/profile-18.jfif" alt="">
+                            </div>
+                            <div>
+                                <h5>Heabom 💫</h5>
+                                <p class="text-muted">8 mutual friends</p>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">Accept</button>
+                            <button class="btn">Decline</button>
+                        </div>
+                    </div>
+
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-photo">
+                                <img src="images/profile-19.jfif" alt="">
+                            </div>
+                            <div>
+                                <h5>Gambar Keren</h5>
+                                <p class="text-muted">2 mutual friends</p>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">Accept</button>
+                            <button class="btn">Decline</button>
+                        </div>
+                    </div>
+
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-photo">
+                                <img src="images/profile-9.jfif" alt="">
+                            </div>
+                            <div>
+                                <h5>Lilla James</h5>
+                                <p class="text-muted">8 mutual friends</p>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">Accept</button>
+                            <button class="btn">Decline</button>
+                        </div>
+                    </div>
+
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-photo">
+                                <img src="images/profile-11.jfif" alt="">
+                            </div>
+                            <div>
+                                <h5>Daniel Bale</h5>
+                                <p class="text-muted">19 mutual friends</p>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">Accept</button>
+                            <button class="btn">Decline</button>
+                        </div>
+                    </div>
+
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-photo">
+                                <img src="images/profile-13.jfif" alt="">
+                            </div>
+                            <div>
+                                <h5>Tina White</h5>
+                                <p class="text-muted">8 mutual friends</p>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">Accept</button>
+                            <button class="btn">Decline</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- ! Main Section ends -->
+
+    <!--  ? Theme Customization starts -->
+    <div class="customize-theme">
+        <div class="card">
+            <h2>Customize your view</h2>
+            <p class="text-muted">Manage your font size, color, and background.</p>
+
+            <!-- ! Font size -->
+            <div class="font-size">
+                <h4>Font size</h4>
+                <div>
+                    <h6>Aa</h6>
+                    <div class="choose-size">
+                        <span class="font-size-1"></span>
+                        <span class="font-size-2 active"></span>
+                        <span class="font-size-3"></span>
+                        <span class="font-size-4"></span>
+                        <span class="font-size-5"></span>
+                    </div>
+                    <h3>Aa</h3>
+                </div>
+            </div>
+
+            <!-- ! Primary Colors -->
+            <div class="color">
+                <h4>Color</h4>
+                <div class="choose-color">
+                    <span class="color-1 active"></span>
+                    <span class="color-2"></span>
+                    <span class="color-3"></span>
+                    <span class="color-4"></span>
+                    <span class="color-5"></span>
+                </div>
+            </div>
+
+            <!-- ! Background Colors -->
+            <div class="background">
+                <h4>Background</h4>
+                <div class="choose-bg">
+                    <div class="bg-1 active">
+                        <span></span>
+                        <h5 for="bg-1">Light</h5>
+                    </div>
+                    <div class="bg-2">
+                        <span></span>
+                        <h5>Dim</h5>
+                    </div>
+                    <div class="bg-3">
+                        <span></span>
+                        <h5 for="bg-3">Lights Out</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
